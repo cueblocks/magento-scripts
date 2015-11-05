@@ -8,23 +8,18 @@ If you are aware of the functionalities of the patch, then you may also be aware
 The Admin Checker will come in handy in order to find all the affected URLs. This script will check all the Magento URLs from the Admin menu and <b>system-> configuration.</b> </p>
 
 <h3><b>Purpose of the Admin Checker Script: </b></h3>
-
 1) Run it whenever you want to find out 404 URLs in the Magento Admin.<br/>
 2) Run it after the implementation of the SUPEE-6788 Patch to list down "404 not found" URLs in the Magento admin.<br/>
-
 
 <h3><b>Availability of the Admin Checker Script: </b></h3>
 The script has been made available by CueBlocks on Github and can be downloaded from there for free. 
 <br/>
 
-<h3><b>Caveats:</b></h3><br/>
-
+<h3><b>Caveats:</b></h3>
 1) This script checks each URL in the Magento Admin (listed in Admin menu and system-> configuration). It may take upto 30 minutes to run completely. Please run it during the non-peak hours if possible. <br/>
 2) Try it on development copy first, if possible.<br/>
 
-
-
-<h4><b>Usage: </b></h4>
+<h3><b>Usage: </b></h3>
 1. Upload script to shell directory of your Magento installation.<br/>
 2. Run from SSH:  php admin404checker.php --username SpecifyAdminUserNameHere. <br/>
 3. All results are output to screen.<br/>
